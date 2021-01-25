@@ -1,3 +1,8 @@
+/* @import './images/pexels-igor-starkov-1117452.jpg'; */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
 *{
   box-sizing: border-box;
   margin: 0px;
@@ -8,7 +13,8 @@
   width: 100%;
   height: 10vh;
   margin-bottom: 25px;
-  background-color: rgb(85, 191, 233);
+  margin-top: 25px;
+  background-color: rgb(23,54,93);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,11 +25,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(https://images.pexels.com/photos/1117452/pexels-photo-1117452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: auto;
 }
 
  .aff-box{
-   width: 90vh;
-   height: 50vh;
+   box-sizing: border-box;
+   width: 60%;
+   height: 45vh;
    padding: 20px;
    margin: 25px;
    border-radius: 5px;
@@ -38,12 +47,15 @@
  }
 
  .aff-title{
+   box-sizing: border-box;
    font-size: 40px;
    font-family: sans-serif;
+   /* font-family: 'Source Sans Pro', sans-serif; */
    color:rgb(23,54,93);
  }
 
  .aff-statement{
+   box-sizing: border-box;
    font-size: x-large;
    font-family: sans-serif;
    color: rgb(23,54,93);
@@ -56,9 +68,10 @@
    justify-content: center;
    align-items: center;
    background-color: rgb(255, 141, 141);
-   border-top: rgb(23,54,93);
-   border-style: solid;
-   border-width: thick;
+   border-top: 5px solid  rgb(23,54,93);
+   border-bottom: 5px solid rgb(211, 211, 211);
+   /* border-style: solid; */
+   /* border-width: thick; */
  }
 
  .claims{
