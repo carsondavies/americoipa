@@ -17,7 +17,7 @@ const Landing = () => {
           Americo IPA does not offer financial incentives to UM decision makers that
           encourage decisions that result in underutilization.
           Our practitioners are ensured independence and impartiality in making referral
-          decisions that will not influence hiring, compensation, termination, promotion any other similar matters.
+          decisions that will not influence hiring, compensation, termination, promotion or any other similar matters.
           </p>
       </div>
 
