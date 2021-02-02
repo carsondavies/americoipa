@@ -50,19 +50,20 @@
  .aff-title{
    height: fit-content;
    width: fit-content;
+   margin-bottom: 20px;
    box-sizing: border-box;
-   font-size: 3.0vw;
+   font-size: 3.5vw;
    font-family: sans-serif;
    /* font-family: 'Source Sans Pro', sans-serif; */
    color:rgb(23,54,93);
  }
 
  .aff-statement{
-   height: fit-content;
-   width: fit-content;
+   height: 90%;
+   width: 90%;
   word-wrap: break-word;
    box-sizing: border-box;
-   font-size: x-large;
+   font-size: 1.5em;
    font-family: sans-serif;
    color: rgb(23,54,93);
  }
